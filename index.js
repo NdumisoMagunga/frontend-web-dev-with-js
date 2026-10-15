@@ -52,3 +52,52 @@ console.log(
   } else {
     console.log('No');
   }
+
+  //logical operator
+  const isAdult = age >= 18;
+  const hasPermission = true;
+  const canEnter = isAdult && hasPermission;
+  console.log('Can enter:', canEnter);
+
+  // function declaration
+  const resultw = (() => {
+    return 20;
+  })();
+  console.log('Function result:', resultw);
+
+
+  //chalenges 1
+  let numberVariable = 0;
+
+  numberVariable++;
+  numberVariable++;
+  numberVariable++;
+  console.log('Number variable:', numberVariable);
+
+//challenge 2
+const firstNumber = 20;
+const secondNumber = '20';
+const resulr = firstNumber === secondNumber; // false because === does not do type coercion
+console.log('Comparison result:', resulr);
+
+//challenge 3 
+// const expression1 = 100 % 50;
+//const expression2 = 100 / 2;
+// const expression3 = expression1 < expression2; //
+// const expression4 = expression3 && 300 + 5 === 305;
+// expression5 = !expression4; // 
+
+const expresion5 = !(((100 % 50 ) < (100 / 2)) && ((300 + 5) === 305));
+console.log('Challenge 3 result:', expresion5);
+
+// challange 4 
+
+const myObj1 = {
+  prop1 : 'first value',
+  prop2 : 20
+};
+
+const myArray1 = [40, 50, 2];
+const result4 = myObj1.prop2 === (myArray1[0] / myArray1[2]);
+console.log('Challenge 4 result:', result4);
+
