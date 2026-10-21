@@ -101,3 +101,12 @@ const myArray1 = [40, 50, 2];
 const result4 = myObj1.prop2 === (myArray1[0] / myArray1[2]);
 console.log('Challenge 4 result:', result4);
 
+//conditionals
+
+if ('hello world' === "hello ndu") {
+  console .log('the strings are the same');
+}else {
+  console.log('the strings are not the same');
+}
+
+if (1) {}else{};
