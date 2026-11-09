@@ -110,3 +110,47 @@ if ('hello world' === "hello ndu") {
 }
 
 if (1) {}else{};
+
+const colors = [`red`, `green`, `blue`, `yellow`, `orange`];
+
+// get a random number between 0 and 4 and stores in a variable
+const randomIndex = Math.floor(Math.random() * colors.length);
+
+const randomColor = colors[randomIndex];
+
+//conditions
+// if (randomColor === 'red') {
+//   console.log('The color is red');
+// }else if (randomColor === 'green') {
+//   console.log('The color is green');
+// }else if (randomColor === 'blue') {
+//   console.log('The color is blue');
+// }else if (randomColor === 'yellow') {
+//   console.log('The color is yellow');
+// }else if (randomColor === 'orange') {
+//   console.log('The color is orange');
+// }else {
+//   console.log('The color is not in the list');
+// }
+
+//switch statement
+switch(randomColor) {
+  case 'red': 
+  console.log('the color is red');
+  break;
+  case 'green':
+  console.log('the color is green');
+  break;
+  case 'blue':
+  console.log('the color is blue');
+  break;
+  case 'yellow':
+  console.log('the color is yellow');
+  break;
+  case 'orange':
+  console.log('the color is orange');
+  break;
+  default:
+  console.log('the color is not in the list');
+  break;
+}
